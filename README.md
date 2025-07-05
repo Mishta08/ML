@@ -9,10 +9,11 @@ This project focuses on classifying EEG (electroencephalogram) data to detect ep
 - `data` - EEG dataset (https://www.kaggle.com/datasets/harunshimanto/epileptic-seizure-recognition)
 - `preprocessing` - Data cleaning, normalization, and oversampling
 - `models`
-  - `cnn_bigru_model.py` - CNN + BiGRU model
-  - `lstm_gru_attention_model.py` - LSTM + GRU + Attention model
+   - Machine learning classifiers (kNN, SVC, etc)  (Scaled_EpilepsyML.ipynb)
+   - CNN + BiGRU model (Copy_of_CNN1DScaled_EpilepsyDL2 (1).ipynb)
+   - LSTM + GRU + Attention model (Scaled_EpilepsyDL(1).ipynb)
 -  Training and evaluation script
-- `requirementst` - Python dependencies
+- `requirements` - Python dependencies
 - `README` - Project documentation
 
 ---
@@ -40,7 +41,7 @@ We use the **UCI Epileptic Seizure Recognition Dataset**, which contains 500 EEG
 
 ## 🧠 Model Architectures
 
-### 1️⃣ CNN + BiGRU
+### CNN + BiGRU
 
 - **Convolutional layers** for local feature extraction
 - **Bidirectional GRU** layers to capture temporal dependencies in both directions
@@ -52,7 +53,7 @@ We use the **UCI Epileptic Seizure Recognition Dataset**, which contains 500 EEG
 
 ---
 
-### 2️⃣ LSTM + GRU with Attention Mechanism
+### LSTM + GRU with Attention Mechanism
 
 - **Stacked LSTM and GRU** for richer sequence modeling
 - **Custom Attention Layer** to focus on the most relevant time steps
