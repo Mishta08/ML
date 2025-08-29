@@ -9,9 +9,9 @@ This project focuses on classifying EEG (electroencephalogram) data to detect ep
 - `data` - EEG dataset (https://www.kaggle.com/datasets/harunshimanto/epileptic-seizure-recognition)
 - `preprocessing` - Data cleaning, normalization, and oversampling
 - `models`
-   - Machine learning classifiers (kNN, SVC, etc)  (Scaled_EpilepsyML.ipynb)
-   - CNN + BiGRU model (Copy_of_CNN1DScaled_EpilepsyDL2 (1).ipynb)
-   - LSTM + GRU + Attention model (Scaled_EpilepsyDL(1).ipynb)
+   - Machine learning classifiers (kNN, SVC, etc)  (EpilepsyML.ipynb)
+   - CNN + BiGRU model (CNN1D&BiGRU_EpilepsyDL.ipynb)
+   - LSTM + GRU + Attention model (GRU&LSTM_AttnEpilepsy.ipynb)
 -  Training and evaluation script
 - `requirements` - Python dependencies
 - `README` - Project documentation
